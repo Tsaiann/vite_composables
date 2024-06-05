@@ -3,7 +3,7 @@ const animation = {
     const { distance, size, duration } = binding.value
     const options = {
       root: document.querySelector('.directive'),
-      threshold: 0.2
+      threshold: 0.3
     }
 
     const fadeIn = `@keyframes fadeIn{
@@ -36,7 +36,7 @@ const animation = {
         }
 
         if(entry.isIntersecting){
-          if(entry.boundingClientRect.bottom > 70) addStyle(true, fadeIn, 'fadeIn', 'into')
+          if(entry.boundingClientRect.bottom > 500) addStyle(true, fadeIn, 'fadeIn', 'into')
           else addStyle(true, fadeInUp, 'fadeInUp', 'intoUp')
         }
         else if(ballStatus == true)addStyle(false, fadeOut, 'fadeOut', 'leave')

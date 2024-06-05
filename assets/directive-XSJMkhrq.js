@@ -1,1 +1,0 @@
-import{_ as s,s as c,o as i,a as o,n,e}from"./index-DGB2uTH7.js";const a={},r={class:"directive"},_=e("h2",null,"Try scrolling me!",-1),l={class:"target"};function d(v,m){const t=c("animation");return i(),o("div",r,[_,n(e("div",l,null,512),[[t]])])}const h=s(a,[["render",d]]);export{h as default};

@@ -16,7 +16,7 @@
         </el-menu-item>
         <el-menu-item index="Final" @click="routerChange('Final')">
           <el-icon><document/></el-icon>
-          <span>Final</span>
+          <span>binary tree menu</span>
         </el-menu-item>
       </el-menu>
     </el-col>
